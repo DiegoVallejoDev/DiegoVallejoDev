@@ -1,6 +1,6 @@
 ### Hi there, I'm Diego 👋
 
-## I'm a Friend, Developer, and a litle crazy
+## I'm a Developer
 - 🔭 I’m currently working on [some interesting projects][https://github.com/weaglex]!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to improve my JS skills
