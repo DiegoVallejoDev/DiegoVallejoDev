@@ -9,11 +9,10 @@
 
 ### Connect with me:
 
-[<img align="left" alt="DiegoVallejoDev.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][https://www.youtube.com/channel/UC2cGC-9iYLoq36cakAFLgSg]
-[<img align="left" alt="DiegoVallejoDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][https://www.youtube.com/channel/UC2cGC-9iYLoq36cakAFLgSg]
-[<img align="left" alt="DiegoVallejoDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][https://twitter.com/Destructor1702]
-[<img align="left" alt="DiegoVallejoDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][https://www.linkedin.com/in/diego-vallejo/]
-[<img align="left" alt="DiegoVallejoDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][https://www.instagram.com/diego_1702]
+[<img align="left" alt="DiegoVallejoDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="left" alt="DiegoVallejoDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="DiegoVallejoDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="DiegoVallejoDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
@@ -35,3 +34,10 @@
 
 <br />
 <br />
+
+<img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=DiegoVallejoDev&show_icons=true&hide_border=true" />
+
+[twitter]: https://twitter.com/Destructor1702
+[youtube]: https://www.youtube.com/channel/UC2cGC-9iYLoq36cakAFLgSg
+[instagram]: https://www.instagram.com/diego_1702
+[linkedin]: https://www.linkedin.com/in/diego-vallejo/
