@@ -1,4 +1,9 @@
 ### Hi there, I'm Diego 👋
+[<img align="right" alt="DiegoVallejoDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="right" alt="DiegoVallejoDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="right" alt="DiegoVallejoDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="right" alt="DiegoVallejoDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
 
 ## I'm a Developer
 - 🔭 I’m currently working on [some interesting projects][weaglex]!
@@ -27,12 +32,6 @@
 <img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=DiegoVallejoDev&show_icons=true&count_private=true&hide_border=true" />
 <img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoVallejoDev&layout=compact&hide_border=true" />
 <br/><br/><br/><br/>
-
-
-[<img align="right" alt="DiegoVallejoDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="right" alt="DiegoVallejoDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="right" alt="DiegoVallejoDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="right" alt="DiegoVallejoDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 
 [weaglex]: https://github.com/weaglex
