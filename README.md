@@ -30,7 +30,7 @@
 <br/><br/>
 
 <img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=DiegoVallejoDev&show_icons=true&count_private=true&hide_border=true" />
-<img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoVallejoDev&layout=compact&hide_border=true" />
+<img align="right" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoVallejoDev&layout=compact&hide_border=true" />
 <br/><br/><br/><br/>
 
 
