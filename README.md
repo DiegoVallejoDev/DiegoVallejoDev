@@ -36,7 +36,7 @@
 [<img align="left" alt="DiegoVallejoDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="DiegoVallejoDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
-<br />
+<br /><br /><br />
 
 [weaglex]: https://github.com/weaglex
 [twitter]: https://twitter.com/Destructor1702
