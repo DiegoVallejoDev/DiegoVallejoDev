@@ -29,8 +29,8 @@
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 <br/><br/>
 
-<img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=DiegoVallejoDev&show_icons=true&count_private=true&hide_border=true" />
-<img align="right" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoVallejoDev&layout=compact&hide_border=true" />
+<img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=DiegoVallejoDev&show_icons=true&count_private=true&include_all_commits=true&hide_border=true" />
+<img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoVallejoDev&layout=compact&hide_border=true" />
 <br/><br/><br/><br/>
 
 
