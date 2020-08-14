@@ -1,7 +1,7 @@
 ### Hi there, I'm Diego 👋
 
 ## I'm a Developer
-- 🔭 I’m currently working on [some interesting projects][https://github.com/weaglex]!
+- 🔭 I’m currently working on [some interesting projects][weaglex]!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to improve my JS skills
 - 🥅 2020 Goals: make a really good Open Source project
@@ -37,6 +37,7 @@
 
 <img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=DiegoVallejoDev&show_icons=true&hide_border=true" />
 
+[weaglex]: https://github.com/weaglex
 [twitter]: https://twitter.com/Destructor1702
 [youtube]: https://www.youtube.com/channel/UC2cGC-9iYLoq36cakAFLgSg
 [instagram]: https://www.instagram.com/diego_1702
