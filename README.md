@@ -6,7 +6,7 @@
 
 
 ## I'm a Developer
-- 🔭 I’m currently working on [some interesting projects][weaglex]!
+- 🔭 I’m currently working on some interesting projects!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to improve my JS skills
 - 🥅 2020 Goals: make a really good Open Source project
