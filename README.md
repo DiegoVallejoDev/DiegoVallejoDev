@@ -21,7 +21,8 @@
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
 <br/><br/>
 
-<img align="left" alt="DiegoVallejoDev's Github Stats" src="https://github-readme-stats.vercel.app/api?username=DiegoVallejoDev&show_icons=true&theme=transparent" />
+[![DiegoVallejoDev's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=DiegoVallejoDev&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/DiegoVallejoDev/github-readme-stats#gh-dark-mode-only)
+[![DiegoVallejoDev's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=DiegoVallejoDev&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/DiegoVallejoDev/github-readme-stats#gh-light-mode-only)
 <br/><br/><br/><br/>
 
 
