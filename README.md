@@ -5,7 +5,6 @@
 I'm a passionate full-stack developer with expertise in building modern web applications. I love working with cutting-edge technologies and creating efficient, scalable solutions.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)][linkedin]
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter)][twitter]
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=flat&logo=youtube)][youtube]
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat&logo=instagram)][instagram]
 
