@@ -80,8 +80,6 @@ Check out my repositories to see what I've been working on! I'm always open to c
 
 ---
 
-
-[weaglex]: https://github.com/weaglex
 [twitter]: https://twitter.com/Destructor1702
 [youtube]: https://www.youtube.com/channel/UC2cGC-9iYLoq36cakAFLgSg
 [instagram]: https://www.instagram.com/diego_1702
