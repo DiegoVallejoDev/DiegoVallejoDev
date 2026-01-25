@@ -74,6 +74,20 @@ body {
     border-color: var(--accent-color);
 }
 
+.theme-toggle:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+.theme-toggle:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.theme-toggle:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
 .theme-toggle svg {
     width: 24px;
     height: 24px;

@@ -39,21 +39,25 @@ function formatDateSpanish(dateString) {
         'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
     ];
     
-    // Handle both ISO date strings and Date objects
-    let date;
-    if (typeof dateString === 'string') {
-        // Parse YYYY-MM-DD format
-        const parts = dateString.split('-');
-        date = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
-    } else {
-        date = new Date(dateString);
+    // Validate and parse date string in YYYY-MM-DD format
+    if (typeof dateString !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(dateString)) {
+        console.warn(`Invalid date format: ${dateString}, using current date`);
+        dateString = new Date().toISOString().split('T')[0];
     }
     
-    const day = date.getDate();
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
+    const parts = dateString.split('-');
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10) - 1; // 0-indexed
+    const day = parseInt(parts[2], 10);
     
-    return `${day} de ${month} de ${year}`;
+    // Validate parsed values
+    if (isNaN(year) || isNaN(month) || isNaN(day) || month < 0 || month > 11 || day < 1 || day > 31) {
+        console.warn(`Invalid date components: ${dateString}, using current date`);
+        const now = new Date();
+        return `${now.getDate()} de ${months[now.getMonth()]} de ${now.getFullYear()}`;
+    }
+    
+    return `${day} de ${months[month]} de ${year}`;
 }
 
 // Helper function to create slug from filename
@@ -66,8 +70,15 @@ function processMarkdownFile(filePath) {
     const content = fs.readFileSync(filePath, 'utf-8');
     const { attributes, body } = fm(content);
     
-    // Convert markdown to HTML
-    const htmlContent = marked(body);
+    // Parse and convert markdown to HTML, but skip the first H1 if it matches the title
+    let htmlContent = marked(body);
+    
+    // Remove the first H1 if it matches the title to avoid duplication
+    const h1Regex = /<h1[^>]*>(.*?)<\/h1>/i;
+    const h1Match = htmlContent.match(h1Regex);
+    if (h1Match && attributes.title && h1Match[1].trim() === attributes.title.trim()) {
+        htmlContent = htmlContent.replace(h1Regex, '');
+    }
     
     // Read template
     const template = fs.readFileSync(BLOG_TEMPLATE_PATH, 'utf-8');
@@ -75,13 +86,19 @@ function processMarkdownFile(filePath) {
     // Create slug
     const slug = createSlug(filePath);
     
+    // Ensure date is in YYYY-MM-DD format
+    let dateStr = attributes.date || new Date().toISOString().split('T')[0];
+    if (typeof dateStr !== 'string') {
+        dateStr = dateStr.toISOString().split('T')[0];
+    }
+    
     // Replace placeholders in template
     let output = template
         .replace(/{{TITLE}}/g, attributes.title || 'Untitled')
         .replace(/{{DESCRIPTION}}/g, attributes.description || '')
         .replace(/{{AUTHOR}}/g, attributes.author || 'Diego Vallejo')
-        .replace(/{{DATE}}/g, attributes.date || new Date().toISOString().split('T')[0])
-        .replace(/{{DATE_FORMATTED}}/g, formatDateSpanish(attributes.date || new Date().toISOString().split('T')[0]))
+        .replace(/{{DATE}}/g, dateStr)
+        .replace(/{{DATE_FORMATTED}}/g, formatDateSpanish(dateStr))
         .replace(/{{SLUG}}/g, slug)
         .replace(/{{CONTENT}}/g, htmlContent);
     
@@ -94,7 +111,7 @@ function processMarkdownFile(filePath) {
     return {
         title: attributes.title || 'Untitled',
         description: attributes.description || '',
-        date: attributes.date || new Date().toISOString().split('T')[0],
+        date: dateStr,
         author: attributes.author || 'Diego Vallejo',
         slug: slug
     };
