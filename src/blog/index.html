@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog de Diego Vallejo - Reflexiones sobre tecnología, desarrollo web, filosofía digital y más.">
+    <meta name="author" content="Diego Vallejo">
+    <link rel="canonical" href="https://diegovallejo.dev/blog/">
+    <title>Blog - Diego Vallejo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <nav class="blog-nav">
+        <a href="/">← Inicio</a>
+    </nav>
+
+    <div class="blog-index">
+        <h1>📝 Blog</h1>
+        <div class="blog-entries">
+            
+        <div class="blog-entry">
+            <h2><a href="entries/sample-markdown-post.html">Introducción al Blog: Reflexiones sobre Tecnología y Sociedad</a></h2>
+            <div class="blog-entry-meta">
+                <time datetime="2025-12-01">1 de diciembre de 2025</time>
+                <span>•</span>
+                <span>Diego Vallejo</span>
+            </div>
+            <p class="blog-entry-description">Un post de bienvenida al blog donde exploramos los temas que abordaremos: tecnología, desarrollo web, filosofía digital y su impacto en la sociedad.</p>
+        </div>
+    
+        <div class="blog-entry">
+            <h2><a href="entries/damnatio-memoriae.html">Damnatio Memoriae: El Lenguaje como Arma</a></h2>
+            <div class="blog-entry-meta">
+                <time datetime="2025-01-15">15 de enero de 2025</time>
+                <span>•</span>
+                <span>Diego Vallejo</span>
+            </div>
+            <p class="blog-entry-description">Un análisis profundo sobre cómo el lenguaje se ha convertido en un arma de manipulación social y política, explorando la damnatio memoriae moderna.</p>
+        </div>
+    
+        </div>
+    </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to 'light' mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', currentTheme);
+        
+        themeToggle.addEventListener('click', function() {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'light' ? 'dark' : 'light';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    </script>
+</body>
+</html>
