@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "front-matter": "^4.0.2",
-    "glob": "^11.0.0",
+    "glob": "^11.1.0",
     "marked": "^16.0.0"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
