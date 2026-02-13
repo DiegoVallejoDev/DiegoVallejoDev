@@ -121,16 +121,4 @@ Interactive Gauss-Jordan elimination visualizer built with React and TypeScript.
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DiegoVallejoDev&show_icons=true&theme=radical&hide_border=true&count_private=true&show=reviews,prs_merged&locale=es" alt="Diego's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoVallejoDev&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/DiegoVallejoDev/ascii-draw-web">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoVallejoDev&repo=ascii-draw-web&theme=radical&hide_border=true" alt="ascii-draw-web" />
-  </a>
-  <a href="https://github.com/DiegoVallejoDev/The-Intrinsic-Density-Protocol-IDP-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=DiegoVallejoDev&repo=The-Intrinsic-Density-Protocol-IDP-&theme=radical&hide_border=true" alt="IDP Framework" />
-  </a>
-</p>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DiegoVallejoDev&theme=tokyonight" alt="GitHub Streak" /></a>
