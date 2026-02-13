@@ -121,4 +121,4 @@ Interactive Gauss-Jordan elimination visualizer built with React and TypeScript.
 
 ### 📊 GitHub Stats
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DiegoVallejoDev&theme=tokyonight" alt="GitHub Streak" /></a>
+<img src="https://gh-readme-profile.vercel.app/api?username=DiegoVallejoDev" alt="GitHub Stats" />
